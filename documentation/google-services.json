@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "337003824867",
+    "firebase_url": "https://twowayuserproject.firebaseio.com",
+    "project_id": "twowayuserproject",
+    "storage_bucket": "twowayuserproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337003824867:android:063aa0eacbefd589c6e7d6",
+        "android_client_info": {
+          "package_name": "com.eshed.kotlinorganizationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337003824867-pclumtrhqjfctofmjbaefq7akgfc464r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGLPj6d_uHqmTBRLtg-I9Cy2_8s0MIAXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337003824867-pclumtrhqjfctofmjbaefq7akgfc464r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
