@@ -32,7 +32,7 @@ class NotesApplication: AppCompatActivity() {
 
             override fun onDataChange(snapshot: DataSnapshot) {
                 Log.d("Notes", "This is what I'm looking for" + snapshot.toString())
-                tasks = snapshot.child("tasks").getValue()!! as ArrayList<String>
+                 tasks = snapshot.child("tasks").getValue()!! as ArrayList<String>
                 Log.d("Notes", "This is what I'm looking for" + tasks.toString())
                 Log.d("Notes", "This is what I'm looking for" + tasks[0].toString())
                 handler(tasks, list)
@@ -127,15 +127,6 @@ class NotesApplication: AppCompatActivity() {
             val text2 = view.findViewById<TextView>(R.id.textEditView2)
             text2.text = "" + p0
             text.text = task
-
-            val button = view.findViewById<Button>(R.id.buttonMarkComplete)
-
-            button.setOnClickListener {
-                if (p0 >= tasklist.size) {
-                    tasklist.removeAt(p0)
-                    Log.d("Testing", tasklist.toString())
-                }
-            }
 
             return view
         }
