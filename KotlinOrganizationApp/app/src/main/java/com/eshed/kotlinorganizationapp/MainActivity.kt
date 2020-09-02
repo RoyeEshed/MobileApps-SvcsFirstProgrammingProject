@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
+        Log.d("MainActivity","New log in onCreate")
 
         loginButton.setOnClickListener {
             val email = emailEditText.text.toString()
